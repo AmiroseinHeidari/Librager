@@ -1,0 +1,47 @@
+body {
+    background-image: url(../images/index.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    height: 97.3vh;
+    width: 95vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1vh solid darkslategray;
+    border-radius: 10%;
+    margin: 1% 20% 1% 20%;
+    padding: 2%;
+    background-color: lightcyan;
+}
+form > input {
+    margin: 2%;
+    padding: 3%;
+    border-left: 1vw solid black;
+}
+form > button {
+    font-size: 0.8em;
+    background-color: coral;
+    margin: 2%;
+    padding: 3%;
+    border: none;
+    transition: background-color 1ms ease;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+form > label {
+    font-size: 0.7em;
+}
+button:hover {
+    background-color: orange;
+}
+button:active {
+    background-color: tomato;
+}

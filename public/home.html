@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Library</title>
+        <link rel="stylesheet" href="./stylesheets/home.css" />
+        <script src="./javascripts/client.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <a href="/home.html" id="home">Home</a>
+            <a href="/about.html" id="about">About</a>
+            <a href="/index.html" id="logout">Logout</a>
+        </nav>
+        <div id="main-section">
+            <div id="add-book-section">
+                <h1>Add a Book</h1>
+                <form id="addBookForm">
+                    <label for="author-addBookForm">Author:</label><br />
+                    <input type="text" id="author-addBookForm" /><br />
+                    <label for="title-addBookForm">Title:</label><br />
+                    <input type="text" id="title-addBookForm" /><br />
+                    <label for="ISBN-addBookForm">ISBN:</label><br />
+                    <input type="text" id="ISBN-addBookForm" /><br />
+                    <button type="submit">add</button>
+                </form>
+            </div>
+            <div id="inventory-section">
+                <h1>Inventory</h1>
+                <ul id="inventory"></ul>
+            </div>
+            <div id="history-section">
+                <h1>In Your Hand</h1>
+                <ul id="historySection"></ul>
+            </div>
+        </div>
+        <footer>2024 Librager. All Rights Reserved.</footer>
+    </body>
+</html>
